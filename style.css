@@ -1,0 +1,72 @@
+header{
+    background-color:#00ffff;
+    position: fixed;
+    height:80px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #00ffff;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+}
+
+ul{
+    font-family: Roboto;
+    float: right;
+    margin-right: 30px;
+}
+
+li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li:hover{
+    color: black;
+    background-color: gray;  
+}
+
+#home{
+    background-image: url("./img/gambarMenu.jpg");
+    background-size: cover; /* zoom out */
+    top: 30px;
+    height: 400px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.product{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 100%;
+}
+
+h1{
+    padding: 150px 0; 
+    text-align: center; 
+    font-size: 50px;
+}
+
+li#sign{
+    background-color: #fff;
+}
