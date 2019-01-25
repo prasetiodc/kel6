@@ -1,0 +1,110 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: #c4beba;
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    background-color:#00ffff;
+    position: fixed;
+    height:80px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+ul.header {
+  font-family: Roboto;
+  float: right;
+  margin-right: 30px;
+}
+
+ul.header li{
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+ul.header li a{
+  color: black;
+  text-decoration: none;
+}
+
+ul.header li:hover{
+  color: black;
+  background-color: gray;  
+}
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  ul {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    /*margin-top: 0px;
+    margin-bottom: 0px;*/
+  }
+
+  a {
+    color: white;
+    font-weight: bold;
+    background-color:rgb(248, 107, 64);
+    border: 3px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+   
+  }
+
+  a:hover{
+    /*border: 2px solid #e01c15;*/
+    background-color: #e01c15;
+    color: white;
+  }
+
+ 
+  li.jenisProduk {
+    width: 400px;
+    background-color: rgb(248, 107, 64);
+    margin: 20px 30px;
+    display: inline-block;
+    padding: 5%;    
+    border-radius: 20px;
+    
+
+   }
+
+  .rowTitle{
+    float: center;
+    /*align-items: center;*/
+    color: #c4beba;
+    background-color: #353332;
+    /*margin: 5%;*/
+    padding: 10%;
+    /*width: 0 auto;*/
+    /*border-radius: 10px;*/
+}

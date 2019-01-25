@@ -1,5 +1,5 @@
 header{
-    background-color:#00ffff;
+    background-color: #383634;
     position: fixed;
     height:80px;
     width: 100%;
@@ -10,19 +10,25 @@ header{
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: #c4beba;
 }
 
 footer{
+    color: whitesmoke;
+    font-size: 15px;
     width: 100%;
-    height: 40px;
-    background-color: #00ffff;
+    height: 80px;
+    background-color: #383634;
     margin: 0;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     bottom: 0;
+    position: fixed;
 }
 
-ul{
+ul.header{
     font-family: Roboto;
     float: right;
     margin-right: 30px;
@@ -35,25 +41,56 @@ li{
 }
 
 a{
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
 }
 
-li:hover{
-    color: black;
+.header li:hover{
+    color: whitesmoke;
     background-color: gray;  
 }
 
 #home{
-    background-image: url("./img/gambarMenu.jpg");
+    background-image: url("./img/home.jpg");
     background-size: cover; /* zoom out */
     top: 30px;
-    height: 400px;
+    height: 600px;
     text-align: center;
     width: 100%;
     position: relative;
+    opacity: 0.8;
 }
 
+#pricing{
+    background-image: url("./img/paket.jpg");
+    background-size: cover; /* zoom out */
+    top: 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    opacity: 0.8;
+    float:left;
+}
+
+#team{
+    background-image: url("./img/steel.jpg");
+    background-size: cover; /* zoom out */
+    top: 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    opacity: 0.8;
+    float:left;
+}
+
+h1 #space{
+ padding:20px;
+}
+
+h2{
+font-size: 50px;
+text-align: center;
+}
 
 .product{
     background-color: whitesmoke;
@@ -62,11 +99,152 @@ li:hover{
 }
 
 h1{
-    padding: 150px 0; 
+    padding: 200px 0; 
     text-align: center; 
     font-size: 50px;
 }
 
-li#sign{
-    background-color: #fff;
+.row{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.col-4{
+    display: table-cell;
+    height: 200px;
+}
+
+.box{
+    border: 2px solid slategrey;
+}
+
+.col-4 > p, a{
+    text-align: center;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;s
+}
+
+.col-4 h1{
+    padding: 30px auto;
+}
+
+/*packet*/
+
+#pricing body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: #c4beba;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;s
+  }
+
+  ul.produk {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+
+  }
+
+  #pricing a {
+    color: white;
+    font-weight: bold;
+    background-color: palegreen;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+   
+  }
+
+  #pricing a{
+    /*border: 2px solid #e01c15;*/
+    background-color: #e01c15;
+    color: black;
+  }
+
+  li:hover .jenisProduk{
+    color: red;
+  }
+
+  #pricing li.jenisProduk {
+    width: 400px;
+    height: 700px;
+    background-color: whitesmoke;
+    margin: 0 30px;
+    display: inline-block;
+    padding: 0 20px;;    
+    border-radius: 20px;
+    opacity: 0.85;
+   }
+
+  .rowTitle{
+    float: center;
+    /*align-items: center;*/
+    color: #c4beba;
+    background-color: #353332;
+    /*margin: 5%;*/
+    padding: 10px;
+    /*width: 0 auto;*/
+    /*border-radius: 10px;*/
+}
+
+h1.paket{
+    padding-top: 100px; 
+    padding-bottom: 30px;
+    text-align: center; 
+    font-size: 50px;
+}
+#product{
+    text-align: center;
+}
+
+/*produk*/
+.gambar{
+    text-align: center;
+    width:400pxs;
+    height:400px;
+}
+
+#product h4{
+    
+    left: 550px;
+    top: -150px;
+}
+#product p{
+    text-align: center;
+    left: 150px;
+    top: -150px;
 }

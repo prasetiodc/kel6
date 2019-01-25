@@ -1,0 +1,99 @@
+    body{
+      padding:0;
+      margin: 10px;
+      background: #000;
+      font-family: Arial;
+      background-image: url("./img/home-1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-position: center;
+    }
+    
+    
+    .box{
+      width: 300px;
+      padding: 30px;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform:translate(-50%,-10%);
+      text-align: center;
+      background:white;
+      border-radius: 10px;
+    }
+
+    .back a{
+        color: #2E64FE;
+        text-decoration: none;
+        float: right;
+        font-size: 10px;
+      }
+    .back a:hover{
+      color: #00bfff;
+      font-size: 15px;
+    }
+
+    .box h3{
+      color: #000000;
+      font-weight:500;
+      text-transform: uppercase;
+    }
+
+    .list a{
+      text-decoration: none;
+    }
+    
+    .box input[type="text"], .box input[type="password"] {
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid #00bfff;
+      padding: 10px 10px;
+      width: 240px;
+      color: #2E64aa;
+      border-radius: 20px;
+      transition:0.25s;
+    }
+    
+    .box input[type="text"]:focus, .box input[type="password"]:focus {
+      width: 280px;
+      border-color: #00ffff;
+      color: #808080;
+    }
+    
+    .box .to_sign_up a{
+      color: #2E64FE;
+      text-decoration: none;
+    }
+    .box .to_sign_up a:hover{
+      color: #00bfff;
+    }
+    
+    .checkbox a{
+      color: #2E64FE;
+      text-decoration: none;
+    }
+    .checkbox a:hover{
+      color: #00bfff;
+    }
+    
+    .box input[type="submit"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00FF00;
+    padding: 10px 20px;
+    width: 100px;
+    color: #2E64FE;
+    border-radius: 20px;
+    transition:0.25s;
+    }
+    
+    .box input[type="submit"]:hover {
+      background:#00FF00;
+      color: white;
+    }
